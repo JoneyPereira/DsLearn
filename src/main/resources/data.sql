@@ -12,3 +12,8 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Spring', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp HTML', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Java', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp CSS', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
