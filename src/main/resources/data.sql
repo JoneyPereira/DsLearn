@@ -17,3 +17,8 @@ INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Spring', '
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp HTML', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp Java', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp CSS', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg');
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 1);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 2);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 3);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 4);
