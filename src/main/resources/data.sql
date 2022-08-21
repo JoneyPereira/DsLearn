@@ -22,3 +22,13 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 2);
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 3);
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-08-13T20:00:00Z', TIMESTAMP WITH TIME ZONE '2022-08-13T20:00:00Z', 4);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha java', 'Trilha principal', 1, 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 1, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas duvidas', 2, 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 2, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Live', 'Live do curso', 3, 'https://www.publicdomainpictures.net/pictures/190000/nahled/travel-background-1469438328pLI.jpg', 0, 1);
+
+
+
+
+
+
