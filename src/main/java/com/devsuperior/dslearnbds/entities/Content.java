@@ -10,7 +10,7 @@ public class Content extends Lesson implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private String textContent;
-    private String videdoUri;
+    private String videoUri;
 
     public Content() {
     }
@@ -18,7 +18,7 @@ public class Content extends Lesson implements Serializable {
     public Content(Long id, String title, Integer position, Section section, String textContent, String videdoUri) {
         super(id, title, position, section);
         this.textContent = textContent;
-        this.videdoUri = videdoUri;
+        this.videoUri = videdoUri;
     }
 
     public String getTextContent() {
@@ -30,10 +30,10 @@ public class Content extends Lesson implements Serializable {
     }
 
     public String getVidedoUri() {
-        return videdoUri;
+        return videoUri;
     }
 
     public void setVidedoUri(String videdoUri) {
-        this.videdoUri = videdoUri;
+        this.videoUri = videdoUri;
     }
 }

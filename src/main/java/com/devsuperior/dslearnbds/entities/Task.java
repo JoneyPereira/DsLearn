@@ -14,7 +14,7 @@ public class Task extends Lesson implements Serializable {
     private String description;
     private Integer questionCount;
     private Integer approvalCount;
-    private Double wight;
+    private Double weight;
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant dueDate;
@@ -26,7 +26,7 @@ public class Task extends Lesson implements Serializable {
         this.description = description;
         this.questionCount = questionCount;
         this.approvalCount = approvalCount;
-        this.wight = wight;
+        this.weight = wight;
         this.dueDate = dueDate;
     }
 
@@ -55,11 +55,11 @@ public class Task extends Lesson implements Serializable {
     }
 
     public Double getWight() {
-        return wight;
+        return weight;
     }
 
     public void setWight(Double wight) {
-        this.wight = wight;
+        this.weight = wight;
     }
 
     public Instant getDueDate() {
