@@ -1,7 +1,9 @@
 package com.devsuperior.dslearnbds.entities;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -18,6 +20,9 @@ public abstract class Lesson {
     @ManyToOne
     @JoinColumn(name = "section_id")
     private Section section;
+
+    @OneToMany(mappedBy = "lesson")
+    private List<Deliver> deliveries = new ArrayList<>();
 
     @ManyToMany
     @JoinTable(name = "tb_lessons_done",

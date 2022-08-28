@@ -13,7 +13,8 @@ public class Notification implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String test;
+
+    private String text;
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant moment;
@@ -28,9 +29,9 @@ public class Notification implements Serializable {
     public Notification() {
     }
 
-    public Notification(Long id, String test, Instant moment, Boolean read, String route, User user) {
+    public Notification(Long id, String text, Instant moment, Boolean read, String route, User user) {
         this.id = id;
-        this.test = test;
+        this.text = text;
         this.moment = moment;
         this.read = read;
         this.route = route;
@@ -45,12 +46,12 @@ public class Notification implements Serializable {
         this.id = id;
     }
 
-    public String getTest() {
-        return test;
+    public String getText() {
+        return text;
     }
 
-    public void setTest(String test) {
-        this.test = test;
+    public void setText(String text) {
+        this.text = text;
     }
 
     public Instant getMoment() {
