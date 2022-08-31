@@ -9,9 +9,7 @@ import java.util.Set;
 public class UserUpdateDTO extends UserDTO{
     private static final long serialVersionUID = 1L;
 
-    public UserUpdateDTO(Long id, String firstName, String lastName, String email, Set<RoleDTO> roles) {
-        super(id, firstName, lastName, email, roles);
+    public UserUpdateDTO(Long id, String name, String email, Set<RoleDTO> roles) {
+        super(id, name, email, roles);
     }
-
-
 }
