@@ -6,6 +6,16 @@ spring:
     database-platform: 'org.hibernate.dialect.H2Dialect'
     defer-datasource-initialization: true
 
+security:
+  oauth2:
+    client:
+      client-id: '${CLIENT_ID:myclientid}'
+      client-secret: '${CLIENT_SECRET:@myclientsecrect}'
+
+jwt:
+  secret: '${MY-JWT-SECRET-APP-BDSLEARN}'
+  duration: '${JWT_DURATION:86400}'
+
 springdoc:
   api-docs:
     path: '/api-docs'
